@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:hsl(30, 38%, 92%) ;
+    width: 1440px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 600px;
+    height: 450px;
+    margin: auto;
+    margin-top: 160px;
+}
+#buttondiv{
+    background-color: white;
+    
+}
+#stitle{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    margin-top: 30px;
+    margin-left: 28px;
+    font-size: 12px;
+    letter-spacing: 5px;
+    
+}
+#btitle{
+    font-family: 'Fraunces', serif;
+    margin-top: 25px;
+    margin-left: 28px;
+    line-height: 30px;
+    
+    
+}
+#ptitle{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    margin-top: 25px;
+    width: 250px;
+    font-size: 14px;
+    margin-left: 28px;
+    word-spacing: 3px;
+    line-height: 25px;
+    
+}
+#pdolar{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+    margin-top: 25px;
+    margin-left: 28px;
+
+}
+#olddolar{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 15px;
+    text-decoration: line-through;
+    margin-left: 12px;
+    position: relative;
+    bottom: 8px;
+}
+#sbutton{
+    width: 240px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 28px;
+    margin-top: 20px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+}
+
+.button{
+    position: relative;
+   /* border koyulduğu zaman icon yerine gelior. Border vermeyince kayıyor?? */
+}
+#bbb{
+    position: relative;
+    bottom: 28px;
+    left: 70px;
+    color: white;
+}
+#sbutton:hover{
+    background-color: white;
+    color:hsl(158, 36%, 37%) ;
+    
+}#bbb:hover{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    /* icona hover veremedim */
+}
+
+
+
+
+
+
+
+
+
+
+
